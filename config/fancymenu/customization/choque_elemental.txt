@@ -1,0 +1,233 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = elemental_8c1a32d923004066
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 768
+  action = autoscale
+  basewidth = 1366
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/play_btn_hover.png
+  backgroundnormal = resources/play_btn.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 49e006bf-b0aa-4c12-9c9e-93887a3583131694116025805
+  y = 244
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 331
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = e38f2ba0-db70-4ffb-a37c-069033fc819d1694116025878
+  y = 164
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 76
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = cad92411-9e65-481c-9ce1-e2bfb0d9d5361694116025880
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  splash_color = #d0caba
+  hidden = true
+  x = 437
+  width = 60
+  splash_rotation = 20
+  action = deep_customization_element:title_screen_splash
+  actionid = 5427067e-1133-4a3f-8c77-a0eef9d382d41694116025881
+  y = 75
+  splash_file_path = resources/splash.txt
+  height = 30
+}
+
+customization {
+  advanced_height = 37
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 5.0
+  buttonaction = opengui;net.minecraft.class_429%btnaction_splitter_fm%
+  backgroundhovered = resources/options_btn_hover.png
+  label = 
+  advanced_width = 120
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = -134
+  width = 120
+  action = addbutton
+  actionid = 23a8f55b-27ff-40f5-8532-53d0abb16a311694116778268
+  y = 20
+  delayappearance = true
+  backgroundnormal = resources/options_btn.png
+  delayappearanceeverytime = false
+  height = 37
+}
+
+customization {
+  advanced_height = 37
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 5.0
+  buttonaction = quitgame%btnaction_splitter_fm%
+  backgroundhovered = resources/exit_btn_hover.png
+  label = 
+  advanced_width = 120
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 13
+  width = 120
+  action = addbutton
+  actionid = 123aeb9f-a32c-4c46-8c96-0b5d4613a4881694116790914
+  y = 20
+  delayappearance = true
+  backgroundnormal = resources/exit_btn.png
+  delayappearanceeverytime = false
+  height = 37
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 5.0
+  path = resources/event_logo.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -97
+  width = 195
+  action = addtexture
+  actionid = 0996921d-e5fa-4c2d-88a3-d8febd02f9611694117241372
+  y = -155
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 100
+}
+
+customization {
+  advanced_height = 37
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 5.0
+  buttonaction = joinserver;crysiseventos.minecraft.best%btnaction_splitter_fm%
+  backgroundhovered = resources/play_btn_hover.png
+  label = 
+  advanced_width = 120
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = -62
+  width = 120
+  action = addbutton
+  actionid = a8d4bfe3-eb3a-4fff-99e3-b4c82c9c11e11694116296465
+  y = -20
+  delayappearance = true
+  backgroundnormal = resources/play_btn.png
+  delayappearanceeverytime = false
+  height = 37
+}
+
+customization {
+  path = resources/isologo2.png
+  orientation = bottom-centered
+  delayappearanceseconds = 5.0
+  x = -47
+  width = 95
+  action = addtexture
+  actionid = e825ce93-0347-4793-9b1f-e4531cc415fd1696293632830
+  y = -43
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 50
+}
+
